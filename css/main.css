@@ -3,7 +3,7 @@
 body {
     font-family: Tahoma, Arial, sans-serif;
     font-size: 10pt;
-    background-color: #444;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     color: #000;
@@ -11,37 +11,43 @@ body {
 
 a {
     text-decoration: none;
-	color: #000;
+    color: #000;
 }
 
 h1 {
-	margin: 0;
-    font-weight: normal;
+    font-weight: 800;
     font-size: 2em;
+    margin: 5px 0px 5px 0px;
 }
 
 h2 {
-    font-weight: normal;
-    font-size: 1.2em;
-    margin: 10px 0 0 0;
-    padding: 0;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin: 5px 0px 5px 0px;
 }
 
 h3 {
-    font-size: 1.1em;
-    margin: 0;
-    padding: 0;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 5px 0px 5px 0px;
 }
 
 h4 {
-    font-size: 1em;
-    margin: 1em 0 0 20px;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 5px 0px 5px 0px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 5px 0px 5px 0px;
 }
 
 h6 {
-	font-size: 0.7em;
-	margin: 0;
-	padding: 0;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 5px 0px 5px 0px;
 }
 
 hr {
@@ -65,53 +71,52 @@ ul {
 /*Classes*/
 
 .clearList {
-	clear:both;
+    clear: both;
 }
-	
-/*Ids*/
-#main {
-    width: 750px;
+
+.sidebar {
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    text-align: right;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #cfc;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.sideSection {
+    margin-top: 20px;
+}
+
+.main {
+    width: 680px;
     background-color: #fff;
-    margin: 15px auto;
+    margin-left: 290px;
     padding: 15px 25px;
 }
 
-#title {
-	float: left;
-	margin: 25px 0 0 0;
+.links {
+    margin-top: 10px;
+    line-height: 1.5em;
 }
 
-#address {
-    float: right;
-    background-color: #ccc;
-    border: 1px solid black;
-    padding: 10px;
+.noBulletList {
+    list-style: none;
 }
 
-#profile {
-	clear: both;
+.certifications ul {
+    width: 640px;
 }
 
-#education ul {
-    width: 750px;
-}
-
-    #education ul li {
+    .certifications ul li {
         float: left;
         margin: 0 auto;
-        width: 250px;
+        width: 320px;
     }
 
-#certifications ul {
-    width: 750px;
-}
-
-    #certifications ul li {
-        float: left;
-        margin: 0 auto;
-        width: 360px;
-    }
-	
 #clearCerts {
     clear: both;
 }
@@ -119,19 +124,7 @@ ul {
 /*Other*/
 
 @media print {
-	.section {
-		page-break-inside: avoid;
-	}
+    .section {
+        page-break-inside: avoid;
+    }
 }
-
-/* img.w3c {
-	position: fixed;
-	bottom: 15px;
-	right: 15px;
-}
-
-ul#logos li {
-	display: inline;
-    list-style: none;
-	padding-right: 20px;
-} */
