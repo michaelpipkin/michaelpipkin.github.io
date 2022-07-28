@@ -14,9 +14,9 @@ a {
     color: #000;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 
 h1 {
     font-weight: 800;
@@ -75,10 +75,6 @@ ul {
 
 /*Classes*/
 
-.clearList {
-    clear: both;
-}
-
 .sidebar {
     height: 100%;
     width: 260px;
@@ -116,18 +112,19 @@ ul {
     margin-top: 8px;
 }
 
-.certifications ul {
+.two-column-list {
     width: 640px;
 }
 
-    .certifications ul li {
+    .two-column-list li {
         float: left;
         margin: 0 auto;
         width: 320px;
     }
 
-#clearCerts {
+.clearList {
     clear: both;
+    margin-bottom: 12px;
 }
 
 /*Other*/
