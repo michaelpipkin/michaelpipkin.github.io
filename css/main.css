@@ -1,136 +1,136 @@
 ﻿/*Elements*/
 
 body {
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: 10pt;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-    color: #000;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10pt;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #000;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
-    a:hover {
-        text-decoration: underline;
-    }
+a:hover {
+  text-decoration: underline;
+}
 
 h1 {
-    font-weight: 800;
-    font-size: 2em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 800;
+  font-size: 2em;
+  margin: 5px 0px 5px 0px;
 }
 
 h2 {
-    font-weight: 600;
-    font-size: 1.8em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 600;
+  font-size: 1.8em;
+  margin: 5px 0px 5px 0px;
 }
 
 h3 {
-    font-weight: 600;
-    font-size: 1.5em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 5px 0px 5px 0px;
 }
 
 h4 {
-    font-weight: 400;
-    font-size: 1.5em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 5px 0px 5px 0px;
 }
 
 h5 {
-    font-weight: 600;
-    font-size: 1.2em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 5px 0px 5px 0px;
 }
 
 h6 {
-    font-weight: 400;
-    font-size: 1.2em;
-    margin: 5px 0px 5px 0px;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 5px 0px 5px 0px;
 }
 
 hr {
-    margin: 10px 0;
-    padding: 0;
+  margin: 10px 0;
+  padding: 0;
 }
 
 p {
-    margin: 10px auto;
-    line-height: 1.5em;
+  margin: 10px auto;
+  line-height: 1.5em;
 }
 
 ul {
-    margin-top: 0;
-    padding-left: 15px;
+  margin-top: 0;
+  padding-left: 15px;
 }
 
-    ul li {
-        line-height: 1.5em;
-    }
+ul li {
+  line-height: 1.5em;
+}
 
 /*Classes*/
 
 .sidebar {
-    height: 100%;
-    width: 260px;
-    position: fixed;
-    text-align: right;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #cfc;
-    overflow-x: hidden;
-    padding: 20px;
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  text-align: right;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cfc;
+  overflow-x: hidden;
+  padding: 20px;
 }
 
 .sideSection {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .main {
-    width: 680px;
-    background-color: #fff;
-    margin-left: 290px;
-    padding: 15px 25px;
+  width: 680px;
+  background-color: #fff;
+  margin-left: 290px;
+  padding: 15px 25px;
 }
 
 .links {
-    margin-top: 10px;
-    line-height: 1.5em;
+  margin-top: 10px;
+  line-height: 1.5em;
 }
 
 .noBulletList {
-    list-style: none;
+  list-style: none;
 }
 
 .topMarginList {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .two-column-list {
-    width: 640px;
+  width: 640px;
 }
 
-    .two-column-list li {
-        float: left;
-        margin: 0 auto;
-        width: 320px;
-    }
+.two-column-list li {
+  float: left;
+  margin: 0 auto;
+  width: 320px;
+}
 
 .clearList {
-    clear: both;
-    margin-bottom: 12px;
+  clear: both;
+  margin-bottom: 12px;
 }
 
 /*Other*/
 
 @media print {
-    .section {
-        page-break-inside: avoid;
-    }
+  .section {
+    page-break-inside: avoid;
+  }
 }
